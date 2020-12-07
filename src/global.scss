@@ -24,3 +24,16 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-content {
+    --background: rgba(255,228,181) !important;
+}
+
+ion-list-header {
+
+    border-bottom: 1px solid rgba( 0, 0, 0, 0.2);
+    --background: rgba(255,228,181) !important;
+}
+ion-toolbar{
+    --background: rgba(255,228,181) !important;
+}
